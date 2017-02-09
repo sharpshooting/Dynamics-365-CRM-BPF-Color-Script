@@ -132,5 +132,5 @@
     background: linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);    }
 
 /* Fixes */
-.processControlContainer .processStageContainer.completedStage:focus .processStageTailContainer div.stageContentArea span.stageNameContent,
+.processControlContainer .processStageContainer.completedStage:focus .processStageTailContainer div.stageContentArea span.stageNameContent { color: #ffffff; }
 .processControlContainer .processStageContainer.completedStage:hover .processStageTailContainer div.stageContentArea span.stageNameContent { color: #000000; }
