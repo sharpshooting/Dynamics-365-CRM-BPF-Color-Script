@@ -1,0 +1,80 @@
+
+/* ACTIVE */
+
+/* future/present */
+.processHeaderContainer .processStageContainer.unselectedStage { background-color: #6A91A4 }
+.processHeaderContainer .processStageContainer.unselectedStage .afterProcessStage { border-left-color: #6A91A4 }
+.processHeaderContainer .processStageContainer.unselectedStage .beforeProcessStage { border-top-color: #6A91A4;
+border-bottom-color: #6A91A4 }
+
+.processHeaderContainer .processStageContainer.unselectedStage .processStageName { color: #000000 }
+.processHeaderContainer .processStageContainer.unselectedStage .stageIconHolder span { color: #000000 }
+.processHeaderContainer .processStageContainer.unselectedStage .stageTracker span { color: #000000 }
+
+.processHeaderContainer .processStageContainer.selectedStage { background-color: #000000 }
+.processHeaderContainer .processStageContainer.selectedStage .afterProcessStage { border-left-color: #000000 }
+.processHeaderContainer .processStageContainer.selectedStage .beforeProcessStage { border-top-color: #000000;
+border-bottom-color: #000000 }
+
+.processHeaderContainer .processStageContainer.selectedStage .processStageName { color: #FFFFFF }
+.processHeaderContainer .processStageContainer.selectedStage .stageIconHolder span { color: #FFFFFF }
+.processHeaderContainer .processStageContainer.selectedStage .stageTracker span { color: #FFFFFF }
+
+
+/* past */
+.processHeaderContainer .processStageContainer.unselectedStage.completedStage { background-color: #8FA97F }
+.processHeaderContainer .processStageContainer.unselectedStage.completedStage .afterProcessStage { border-left-color: #8FA97F }
+.processHeaderContainer .processStageContainer.unselectedStage.completedStage .beforeProcessStage { border-top-color: #8FA97F;
+border-bottom-color: #8FA97F }
+
+.processHeaderContainer .processStageContainer.unselectedStage.completedStage .processStageName { color: #000000 }
+.processHeaderContainer .processStageContainer.unselectedStage.completedStage .stageIconHolder span { color: #000000 }
+
+.processHeaderContainer .processStageContainer.selectedStage.completedStage { background-color: #FF7A7A }
+.processHeaderContainer .processStageContainer.selectedStage.completedStage .afterProcessStage { border-left-color: #FF7A7A }
+.processHeaderContainer .processStageContainer.selectedStage.completedStage .beforeProcessStage { border-top-color: #FF7A7A;
+border-bottom-color: #FF7A7A }
+
+.processHeaderContainer .processStageContainer.selectedStage.completedStage .processStageName { color: #000000 }
+.processHeaderContainer .processStageContainer.selectedStage.completedStage .stageIconHolder span { color: #000000 }
+
+/* ABANDONED */
+/* future/present */
+
+.processHeaderContainer .processStageContainer.unselectedStage.abortedStage { background-color: #999999 }
+.processHeaderContainer .processStageContainer.unselectedStage.abortedStage .afterProcessStage { border-left-color: #999999 }
+.processHeaderContainer .processStageContainer.unselectedStage.abortedStage .beforeProcessStage { border-top-color: #999999;
+border-bottom-color: #999999 }
+
+.processHeaderContainer .processStageContainer.unselectedStage.abortedStage .processStageName { color: #660000 }
+.processHeaderContainer .processStageContainer.unselectedStage.abortedStage .stageIconHolder span { color: #660000 }
+.processHeaderContainer .processStageContainer.unselectedStage.abortedStage .stageTracker span { color: #660000 }
+
+.processHeaderContainer .processStageContainer.selectedStage.abortedStage { background-color: #333333 }
+.processHeaderContainer .processStageContainer.selectedStage.abortedStage .afterProcessStage { border-left-color: #333333 }
+.processHeaderContainer .processStageContainer.selectedStage.abortedStage .beforeProcessStage { border-top-color: #333333;
+border-bottom-color: #333333 }
+
+.processHeaderContainer .processStageContainer.selectedStage.abortedStage .processStageName { color: #FF0000 }
+.processHeaderContainer .processStageContainer.selectedStage.abortedStage .stageIconHolder span { color: #FF0000 }
+.processHeaderContainer .processStageContainer.selectedStage.abortedStage .stageTracker span { color: #FF0000 }
+
+/* past */
+
+.processHeaderContainer .processStageContainer.unselectedStage.completedStage.abortedStage { background-color: #999999 }
+.processHeaderContainer .processStageContainer.unselectedStage.completedStage.abortedStage .afterProcessStage { border-left-color: #999999 }
+.processHeaderContainer .processStageContainer.unselectedStage.completedStage.abortedStage .beforeProcessStage { border-top-color: #999999;
+border-bottom-color: #999999 }
+
+.processHeaderContainer .processStageContainer.unselectedStage.completedStage.abortedStage .processStageName { color: #006600 }
+.processHeaderContainer .processStageContainer.unselectedStage.completedStage.abortedStage .stageIconHolder span { color: #006600 }
+.processHeaderContainer .processStageContainer.unselectedStage.completedStage.abortedStage .stageTracker span { color: #006600 }
+
+.processHeaderContainer .processStageContainer.selectedStage.completedStage.abortedStage { background-color: #333333 }
+.processHeaderContainer .processStageContainer.selectedStage.completedStage.abortedStage .afterProcessStage { border-left-color: #333333 }
+.processHeaderContainer .processStageContainer.selectedStage.completedStage.abortedStage .beforeProcessStage { border-top-color: #333333;
+border-bottom-color: #333333 }
+
+.processHeaderContainer .processStageContainer.selectedStage.completedStage.abortedStage .processStageName { color: #00FF00 }
+.processHeaderContainer .processStageContainer.selectedStage.completedStage.abortedStage .stageIconHolder span { color: #00FF00 }
+.processHeaderContainer .processStageContainer.selectedStage.completedStage.abortedStage .stageTracker span { color: #00FF00 }

@@ -1,0 +1,136 @@
+.processControlContainer .processStageContainer.unselectedStage .processStageTailContainer div.stageContentArea span.stageNameContent { color: #999999 }
+.processControlContainer .processStageContainer.unselectedStage .processStageTailContainer div.stageContentArea div.stageIconHolder { color: #999999 }
+.processControlContainer .processStageContainer.unselectedStage .processStageTailContainer div.stageContentArea        { background-color: #99FF00 }
+.processControlContainer .processStageContainer.unselectedStage .processStageTailContainer div.stageContentArea:after  { border-left-color: #9FF000 }
+.processControlContainer .processStageContainer.unselectedStage .processStageTailContainer div.stageContentArea:before { border-top-color: #99FF00; border-bottom-color: #99FF00 }
+
+.processControlContainer .processStageContainer.selectedStage .processStageTailContainer div.stageContentArea span.stageNameContent { color: #999999 }
+.processControlContainer .processStageContainer.selectedStage .processStageTailContainer div.stageContentArea div.stageIconHolder { color: #999999 }
+.processControlContainer .processStageContainer.selectedStage .processStageTailContainer div.stageContentArea        { background-color: #00FF99 }
+.processControlContainer .processStageContainer.selectedStage .processStageTailContainer div.stageContentArea:after  { border-left-color: #00FF99 }
+.processControlContainer .processStageContainer.selectedStage .processStageTailContainer div.stageContentArea:before { border-top-color: #00FF99; border-bottom-color: #00FF99 }
+
+.processControlContainer .processStageContainer.unselectedStage.completedStage .processStageTailContainer div.stageContentArea span.stageNameContent { color: #999999 }
+.processControlContainer .processStageContainer.unselectedStage.completedStage .processStageTailContainer div.stageContentArea div.stageIconHolder { color: #999999 }
+.processControlContainer .processStageContainer.unselectedStage.completedStage .processStageTailContainer div.stageContentArea        { background-color: #990000 }
+.processControlContainer .processStageContainer.unselectedStage.completedStage .processStageTailContainer div.stageContentArea:after  { border-left-color: #990000 }
+.processControlContainer .processStageContainer.unselectedStage.completedStage .processStageTailContainer div.stageContentArea:before { border-top-color: #990000; border-bottom-color: #990000 }
+
+.processControlContainer .processStageContainer.selectedStage.completedStage .processStageTailContainer div.stageContentArea span.stageNameContent { color: #999999 }
+.processControlContainer .processStageContainer.selectedStage.completedStage .processStageTailContainer div.stageContentArea div.stageIconHolder { color: #999999 }
+.processControlContainer .processStageContainer.selectedStage.completedStage .processStageTailContainer div.stageContentArea        { background-color: #00a1f1 }
+.processControlContainer .processStageContainer.selectedStage.completedStage .processStageTailContainer div.stageContentArea:after  { border-left-color: #000099 }
+.processControlContainer .processStageContainer.selectedStage.completedStage .processStageTailContainer div.stageContentArea:before { border-top-color: #000099; border-bottom-color: #000099 }
+
+/* Hover */
+.processControlContainer .processStageContainer.unselectedStage .processStageTailContainer div.stageContentArea:hover span.stageNameContent { color: #660066 }
+.processControlContainer .processStageContainer.unselectedStage .processStageTailContainer div.stageContentArea:hover div.stageIconHolder { color: #660066 }
+.processControlContainer .processStageContainer.unselectedStage .processStageTailContainer div.stageContentArea:hover        { background-color: #666600 }
+.processControlContainer .processStageContainer.unselectedStage .processStageTailContainer div.stageContentArea:hover:after  { border-left-color: #666600 }
+.processControlContainer .processStageContainer.unselectedStage .processStageTailContainer div.stageContentArea:hover:before { border-top-color: #666600; border-bottom-color: #666600 }
+
+.processControlContainer .processStageContainer.selectedStage .processStageTailContainer div.stageContentArea:hover span.stageNameContent { color: #660066 }
+.processControlContainer .processStageContainer.selectedStage .processStageTailContainer div.stageContentArea:hover div.stageIconHolder { color: #660066 }
+.processControlContainer .processStageContainer.selectedStage .processStageTailContainer div.stageContentArea:hover        { background-color: #666600 }
+.processControlContainer .processStageContainer.selectedStage .processStageTailContainer div.stageContentArea:hover:after  { border-left-color: #666600 }
+.processControlContainer .processStageContainer.selectedStage .processStageTailContainer div.stageContentArea:hover:before { border-top-color: #666600; border-bottom-color: #666600 }
+
+.processControlContainer .processStageContainer.unselectedStage:hover div.stageLabelMask,
+.processControlContainer .processStageContainer.unselectedStage:focus div.stageLabelMask
+.processControlContainer .processStageContainer.selectedStage:hover div.stageLabelMask,
+.processControlContainer .processStageContainer.selectedStage:focus div.stageLabelMask
+{
+    background-color: transparent;
+}
+
+.processControlContainer .processStageContainer.unselectedStage.completedStage .processStageTailContainer div.stageContentArea:hover span.stageNameContent { color: #660066 }
+.processControlContainer .processStageContainer.unselectedStage.completedStage .processStageTailContainer div.stageContentArea:hover div.stageIconHolder { color: #660066 }
+.processControlContainer .processStageContainer.unselectedStage.completedStage .processStageTailContainer div.stageContentArea:hover        { background-color: #666600 }
+.processControlContainer .processStageContainer.unselectedStage.completedStage .processStageTailContainer div.stageContentArea:hover:after  { border-left-color: #666600 }
+.processControlContainer .processStageContainer.unselectedStage.completedStage .processStageTailContainer div.stageContentArea:hover:before { border-top-color: #666600; border-bottom-color: #666600 }
+
+.processControlContainer .processStageContainer.selectedStage.completedStage .processStageTailContainer div.stageContentArea:hover span.stageNameContent { color: #660066 }
+.processControlContainer .processStageContainer.selectedStage.completedStage .processStageTailContainer div.stageContentArea:hover div.stageIconHolder { color: #660066 }
+.processControlContainer .processStageContainer.selectedStage.completedStage .processStageTailContainer div.stageContentArea:hover        { background-color: #666600 }
+.processControlContainer .processStageContainer.selectedStage.completedStage .processStageTailContainer div.stageContentArea:hover:after  { border-left-color: #666600 }
+.processControlContainer .processStageContainer.selectedStage.completedStage .processStageTailContainer div.stageContentArea:hover:before { border-top-color: #666600; border-bottom-color: #666600 }
+
+/* Label Masks */
+
+.processControlContainer .processStageContainer.unselectedStage div.stageLabelMask {
+    background: rgba(102, 102, 0, 0.15);
+    background: -moz-linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);
+    background: -webkit-gradient(linear, left, right, color-stop(rgba(102, 102, 0, 0.15)), color-stop(#666600));
+    background: -webkit-linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);
+    background: -o-linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);
+    background: -ms-linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#26666600', endColorstr='#ff666600', GradientType=1);
+    background: linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);
+    }
+.processControlContainer .processStageContainer.selectedStage div.stageLabelMask {
+    background: rgba(102, 102, 0, 0.15);
+    background: -moz-linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);
+    background: -webkit-gradient(linear, left, right, color-stop(rgba(102, 102, 0, 0.15)), color-stop(#666600));
+    background: -webkit-linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);
+    background: -o-linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);
+    background: -ms-linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#26666600', endColorstr='#ff666600', GradientType=1);
+    background: linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);    }
+.processControlContainer .processStageContainer.unselectedStage.completedStage div.stageLabelMask {
+    background: rgba(102, 102, 0, 0.15);
+    background: -moz-linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);
+    background: -webkit-gradient(linear, left, right, color-stop(rgba(102, 102, 0, 0.15)), color-stop(#666600));
+    background: -webkit-linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);
+    background: -o-linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);
+    background: -ms-linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#26666600', endColorstr='#ff666600', GradientType=1);
+    background: linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);    }
+.processControlContainer .processStageContainer.selectedStage.completedStage div.stageLabelMask {
+    background: rgba(102, 102, 0, 0.15);
+    background: -moz-linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);
+    background: -webkit-gradient(linear, left, right, color-stop(rgba(102, 102, 0, 0.15)), color-stop(#666600));
+    background: -webkit-linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);
+    background: -o-linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);
+    background: -ms-linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#26666600', endColorstr='#ff666600', GradientType=1);
+    background: linear-gradient(left, rgba(102, 102, 0, 0.15), #666600);    }
+.processControlContainer .processStageContainer.unselectedStage:hover div.stageLabelMask {
+    background: rgba(102, 102, 0, 0.15);
+    background: -moz-linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);
+    background: -webkit-gradient(linear, left, right, color-stop(rgba(102, 102, 0, 0.15)), color-stop(#123321));
+    background: -webkit-linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);
+    background: -o-linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);
+    background: -ms-linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#26123321', endColorstr='#ff123321', GradientType=1);
+    background: linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);    }
+.processControlContainer .processStageContainer.selectedStage:hover div.stageLabelMask {
+    background: rgba(102, 102, 0, 0.15);
+    background: -moz-linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);
+    background: -webkit-gradient(linear, left, right, color-stop(rgba(102, 102, 0, 0.15)), color-stop(#123321));
+    background: -webkit-linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);
+    background: -o-linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);
+    background: -ms-linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#26123321', endColorstr='#ff123321', GradientType=1);
+    background: linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);    }
+.processControlContainer .processStageContainer.unselectedStage.completedStage:hover div.stageLabelMask {
+    background: rgba(102, 102, 0, 0.15);
+    background: -moz-linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);
+    background: -webkit-gradient(linear, left, right, color-stop(rgba(102, 102, 0, 0.15)), color-stop(#123321));
+    background: -webkit-linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);
+    background: -o-linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);
+    background: -ms-linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#26123321', endColorstr='#ff123321', GradientType=1);
+    background: linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);    }
+.processControlContainer .processStageContainer.selectedStage.completedStage:hover div.stageLabelMask {
+    background: rgba(102, 102, 0, 0.15);
+    background: -moz-linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);
+    background: -webkit-gradient(linear, left, right, color-stop(rgba(102, 102, 0, 0.15)), color-stop(#123321));
+    background: -webkit-linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);
+    background: -o-linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);
+    background: -ms-linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#26123321', endColorstr='#ff123321', GradientType=1);
+    background: linear-gradient(left, rgba(102, 102, 0, 0.15), #123321);    }
+
+/* Fixes */
+.processControlContainer .processStageContainer.completedStage:focus .processStageTailContainer div.stageContentArea span.stageNameContent,
+.processControlContainer .processStageContainer.completedStage:hover .processStageTailContainer div.stageContentArea span.stageNameContent { color: #000000; }
