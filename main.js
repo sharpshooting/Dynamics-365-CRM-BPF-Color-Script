@@ -100,7 +100,7 @@ switch(Xrm.Page.context.client.getFormFactor())
         +
         `.processControlContainer .processStageContainer.completedStage:focus .processStageTailContainer div.stageContentArea .stageContent span.stageNameContent {color:${activeProcessControlTheme.completeStage.selected.foreground}}.processControlContainer .processStageContainer.completedStage:focus .processStageTailContainer:hover div.stageContentArea .stageContent span.stageNameContent {color:${activeProcessControlTheme.hover.completeStage.selected.foreground}}`
         +
-        "div.stageLabelMask { display: hidden !important }";
+        "div.stageLabelMask{visibility: hidden !important}";
         break;
     case 2:
     case 3:
