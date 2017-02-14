@@ -1,3 +1,5 @@
+function run()
+{
 var activeProcessControlTheme =
 {
     completeStage: {
@@ -92,7 +94,7 @@ var abandonedProcessControlTheme =
     } 
 };
 
-var processControlOverrideStyle = document.createElement('style');
+var processControlOverrideStyle = window.parent.document.createElement('style');
 switch(Xrm.Page.context.client.getFormFactor())
 {
     case 1:
@@ -110,4 +112,5 @@ switch(Xrm.Page.context.client.getFormFactor())
         processControlOverrideStyle.innerHTML = "";
 }
 
-document.body.appendChild(processControlOverrideStyle);
+window.parent.document.body.appendChild(processControlOverrideStyle);
+}
