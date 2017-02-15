@@ -35,7 +35,7 @@
 .processControlContainer .processStageContainer.selectedStage .processStageTailContainer div.stageContentArea:hover:after  { border-left-color: #666600 }
 .processControlContainer .processStageContainer.selectedStage .processStageTailContainer div.stageContentArea:hover:before { border-top-color: #666600; border-bottom-color: #666600 }
 
-div.stageLabelMask { visibility: hidden !important }
+div.stageLabelMask { visibility: hidden !important } /* simpler way to hide the stageLabelMasks */
 
 .processControlContainer .processStageContainer.unselectedStage:hover div.stageLabelMask,
 .processControlContainer .processStageContainer.unselectedStage:focus div.stageLabelMask
