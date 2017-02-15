@@ -14,7 +14,12 @@ Although the MIT License does not mandate it, I welcome pull requests with enhan
 
 Dynamics 365 8.2 introduces a new version of the Business Process control with a different DOM structure from that of previous versions (8.1 and earlier), making this script incompatible with them.
 
-Still, manipulating the DOM is not supported by Dynamics 365, so alternative methods of executing this script must be employed. Currently, this script only works as a proof of concept inside the browser's debug mode.
+This script manipulates the DOM by appending a style block that overrides the out-of-box style of the Business Process control. This is explicitly not supported nor recommended by Microsoft, may break between updates, may have a hit in performance and may introduce additional side-effects.
+
+Version | Status
+--- | ---
+8.1.X or prior | Won't work; Business Process control uses a different structure
+8.2.0.781 (1612) | Working, but refer to to-do list for known limitations; not tested on phone form factor
 
 ## To-do List
 
@@ -22,10 +27,6 @@ Still, manipulating the DOM is not supported by Dynamics 365, so alternative met
 * Implement gradients on web client
 * Use colors from applied theme
 * Calculate hover and selected colors with luminance values
-
-## How the Script works
-
-(TO-DO: need to expand this section)
 
 ## MIT License
 
