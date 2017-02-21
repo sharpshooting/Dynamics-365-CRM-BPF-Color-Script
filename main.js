@@ -1,5 +1,8 @@
 function run()
 {
+var processControlOverrideStyleId = "processControlCustomColorOverride";
+if (!window.parent.document.getElementById(processControlOverrideStyleId)) return;
+
 var activeProcessControlTheme =
 {
     completeStage: {
@@ -95,6 +98,7 @@ var abandonedProcessControlTheme =
 };
 
 var processControlOverrideStyle = window.parent.document.createElement('style');
+processControlOverrideStyle.id = processControlOverrideStyleId;
 switch(Xrm.Page.context.client.getFormFactor())
 {
     case 1:
