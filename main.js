@@ -1,8 +1,10 @@
 function run()
 {
+// Check if style element has already been added to the page
 var processControlOverrideStyleId = "processControlCustomColorOverride";
 if (!window.parent.document.getElementById(processControlOverrideStyleId)) return;
 
+// Define your colors here
 var activeProcessControlTheme =
 {
     completeStage: {
@@ -97,8 +99,11 @@ var abandonedProcessControlTheme =
     } 
 };
 
+// Create the style element
 var processControlOverrideStyle = window.parent.document.createElement('style');
 processControlOverrideStyle.id = processControlOverrideStyleId;
+
+// Set the style element's contents based on client code
 switch(Xrm.Page.context.client.getFormFactor())
 {
     case 1:
@@ -116,5 +121,6 @@ switch(Xrm.Page.context.client.getFormFactor())
         processControlOverrideStyle.innerHTML = "";
 }
 
+// Append style element to body
 window.parent.document.body.appendChild(processControlOverrideStyle);
 }
