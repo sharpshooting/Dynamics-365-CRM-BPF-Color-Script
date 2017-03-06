@@ -2,7 +2,7 @@ function run()
 {
 // Check if style element has already been added to the page
 var processControlOverrideStyleId = "processControlCustomColorOverride";
-if (!window.parent.document.getElementById(processControlOverrideStyleId)) return;
+if (window.parent.document.getElementById(processControlOverrideStyleId)) return;
 
 // Define your colors here
 var activeProcessControlTheme =
